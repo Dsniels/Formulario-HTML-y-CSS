@@ -1,0 +1,172 @@
+body {
+    text-align: center;
+    font-family:Arial, Verdana, sans-serif;
+    background-color: rgb(10 5 42);
+}
+p {
+    margin: 10px auto 10px auto;
+
+}
+.Presentacion {
+    margin: 0px auto 50px auto;
+    background-color: rgb(10 5 42);
+    color: rgb(231, 220, 220);
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    
+}
+.Presentacion h1 {
+    margin: 0px 0px 0px 30px;
+    text-align: left;
+    font-size: 300%;
+    width: 250px;
+    color: orangered;
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+}
+
+.Presentacion h2{
+    text-align: left;
+    font-size: 200%;
+    width: 250px;
+    font-family: 'Courier New', monospace;
+    margin: 20px 0px 0px 30px;
+    text-transform: uppercase;
+}
+.Contenido {
+    background-image: url(Cancún.jpg);
+    background-repeat: no-repeat;
+    margin: 130px auto 0px auto;
+    background-position: center;
+    background-size: cover;
+    align-items:center ;
+    padding: 20px;
+
+
+}   
+label {
+    width: 500px;
+    height: 100px;
+    font-size: 100%;
+    margin-left: 40px;
+    
+
+}
+form, h2 {
+    text-align: left;
+    font-size: 133%;
+    font-weight: 600%;
+    width: 100px;
+    margin-top: 30px;
+
+}
+form {
+    background-color: #f7f7f7;
+    margin: 100px auto 20px auto;
+    width: 600px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    font-size: 133%;    
+}
+.Habitacion{
+    width: 200px;
+    margin-left: 80px;
+    margin-right: 0px;
+    display: inline-block;
+}
+.Habitacion  h2{
+    margin-left: 30px;
+}
+.paquete{
+    width: 200px;
+    margin-left: 0px;
+    display: inline-block;
+
+}
+.paquete h2{
+    text-align: center;
+    margin-left: 55px;
+}
+h1#Registro {
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+input, select {
+    font-size: 100%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+select {
+    margin-left: 65px;
+}
+
+.boton1 {
+    color:#f7f7f7;
+    width: 100px;
+    background-color:#0f6f19e7;
+    border-bottom: 2px solid #01310b;
+    padding: 5px 5px 5px 5px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+.boton2{
+    color:#f7f7f7;
+    width: 100px;
+    background-color:#0f6f19e7;
+    border-bottom: 2px solid #01310b;
+    padding: 5px 5px 5px 5px;
+    margin-left: 94px;
+    margin-bottom: 10px;
+}
+
+table {
+    align-items: center;
+    text-align: center;
+    width: 10px;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px auto 20px auto;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 80%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+tr {
+    background-color: #056c1baa;
+}
+.tabla{
+    background-color: #f7f7f7;
+    margin: 20px auto 20px auto;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    font-size: 100%; 
+    text-align: center;
+}
